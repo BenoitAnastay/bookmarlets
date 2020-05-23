@@ -3140,6 +3140,7 @@ function save() {
 	div._2pio{ display:none !important; }
 	div.qjfq86k5{ display:none !important; }
 	div#pagelet_ego_contextual_group{ display:none !important; }
+    div#pagelet_ego_pane{ display:none !important; }
 	div#pagelet_dock{ display:none !important; }
 	div#pagelet_rhc_footer{ display:none !important; }
 	div#group_rhc_post_tags_list{ display:none !important; }
