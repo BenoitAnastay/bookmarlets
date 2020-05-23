@@ -3154,6 +3154,8 @@ function save() {
 	div#pagelet_dock{ display:none !important; }
 	div#pagelet_rhc_footer{ display:none !important; }
 	div#group_rhc_post_tags_list{ display:none !important; }
+    div._18dz{ display:none !important; }
+    div.groupsInviteJoinCard{ display:none !important; }
 
 	div._43u6{ display:none !important; }
 	div._6cuq{ display:none !important; }
@@ -3171,7 +3173,6 @@ function save() {
 	}
     div._8m-h::before{ display:none !important; }
     span.uiLikePageButton{ display:none !important; }
-    div#u_fetchstream_3_4{ display:none !important; }
 	`
 
 	const styleSheet = document.createElement("style")
