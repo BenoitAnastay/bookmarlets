@@ -3149,7 +3149,8 @@ function anno() {
                 a[data-hovercard*="user.php"] img,
                 a[data-hovercard*="page.php"] img,
                 .fbNubFlyout [data-hovercard] img.img,
-                [data-id] a[href*='facebook.com/messages/'] img.img`,
+                [data-id] a[href*='facebook.com/messages/'] img.img,
+                a.oajrlxb2.gs1a9yip.g5ia77u1.mtkw9kbi.tlpljxtp.qensuy8j.ppp5ayq2.goun2846.ccm00jje.s44p3ltw.mk2mc5f4.rt8b4zig.n8ej3o3l.agehan2d.sk4xxmp2.rq0escxv.nhd2j8a9.q9uorilb.mg4g778l.btwxx1t3.pfnyh3mw.p7hjln8o.kvgmc6g5.cxmmr5t8.oygrvhab.hcukyx3x.tgvbjcpo.hpfvmrgz.jb3vyjys.rz4wbd8a.qt6c0cv9.a8nywdso.l9j0dhe7.i1ao9s8h.esuyzwwr.f1sip0of.du4w35lb.lzcic4wl.abiwlrkh.p8dawk7l img`,
         function(i) {
             if (i.parentNode && i.parentNode.href && i.parentNode.href.indexOf("photo.php") >= 0) {
                 return;
@@ -3209,7 +3210,9 @@ function anno() {
                 #friends_reminders_link .fbRemindersTitle strong,
                 .fbNubFlyout .titlebarText,
                 [data-id] a[href*='facebook.com/messages/'] ._55lr,
-                [data-id] a[href*='facebook.com/messages/'] ._55ls`,
+                [data-id] a[href*='facebook.com/messages/'] ._55ls,
+                a.oajrlxb2.g5ia77u1.qu0x051f.esr5mh6w.e9989ue4.r7d6kgcz.rq0escxv.nhd2j8a9.nc684nl6.p7hjln8o.kvgmc6g5.cxmmr5t8.oygrvhab.hcukyx3x.jb3vyjys.rz4wbd8a.qt6c0cv9.a8nywdso.i1ao9s8h.esuyzwwr.f1sip0of.lzcic4wl.gmql0nx0.gpro0wi8,
+                a.oajrlxb2.g5ia77u1.qu0x051f.esr5mh6w.e9989ue4.r7d6kgcz.rq0escxv.nhd2j8a9.nc684nl6.p7hjln8o.kvgmc6g5.cxmmr5t8.oygrvhab.hcukyx3x.jb3vyjys.rz4wbd8a.qt6c0cv9.a8nywdso.i1ao9s8h.esuyzwwr.f1sip0of.lzcic4wl.oo9gr5id.gpro0wi8.lrazzd5p`,
         function(o) {
             if (X(o).find('img').length > 0 || X(o).hasClass('sfx_anonymous')) {
                 return;
@@ -3474,6 +3477,14 @@ function save() {
     div[data-testid="group_header"] { display: none !important; }
     div._19sz { display: none !important; }
     div#pagelet_group_rhc { display: none !important; }
+
+    div.nqmvxvec.s45kfl79.emlxlaya.bkmhp75w.spb7xbtv.a8c37x1j.fv0vnmcu.qjjbsfad.l9j0dhe7 { display: none !important; }
+    span._3eol.ellipsis { display: none !important; }
+    .pzggbiyp { display: none !important; }
+    .nqmvxvec.s45kfl79.emlxlaya.bkmhp75w.spb7xbtv.a8c37x1j.fv0vnmcu.rs0gx3tq.l9j0dhe7 { display: none !important; }
+    .rq0escxv.l9j0dhe7.du4w35lb.j83agx80.taijpn5t.gs1a9yip.owycx6da.btwxx1t3.cddn0xzi { display: none !important; }
+    span.oi732d6d.ik7dh3pa.d2edcug0.qv66sw1b.c1et5uql.a8c37x1j.hop8lmos.enqfppq2.e9vueds3.j5wam9gi.knj5qynh.m9osqain.hzawbc8m { display: none !important; }
+    span.tojvnm2t.a6sixzi8.abs2jz4q.a8s20v7p.t1p8iaqh.k5wvi7nf.q3lfd5jv.pk4s997a.bipmatt0.cebpdrjk.qowsmv63.owwhemhu.dp1hu0rb.dhp61c6y.iyyx5f41 { display: none !important; }
     `
 
 	const styleSheet = document.createElement("style")
